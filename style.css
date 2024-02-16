@@ -1,4 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 *{
-    margin: 0  ;
     padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
+#hero{
+    margin-top: 50px;
+}
+.hero-container{
+    height: 600px;
+    background: url(images/banner-image.png), linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+    background-blend-mode: multiply;
+    border-radius: 16px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.hero-titel span{
+    font-size: 32px; 
+    font-family: Merriweather; 
+    font-weight: 400;
+}
+.hero-titel h1{
+    font-size: 72px; 
+    font-family: Merriweather; 
+    font-weight: 900; 
+    line-height: 95px;
+    margin-top: 16px;
+}
+.discount-container{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding: 120px 0px;
+}
+.discount-titel{
+    font-family: "Inter", sans-serif;
+    font-size: 88px;
+    font-weight: 800;
+    color: #FF0000;
+}
+.discount-subtitel-container{
+    padding: 48px 0px;
+}
+.discount-subtitel-container span{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+.discount-subtitel-container h2{
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #070211;
+    margin-top: 16px;
+}
+.discount-container img{
+    width: 800px;
+}
+.party-container{
+    height: 600px;
+    background: url(images/Vectorrr.png), linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    border-radius: 16px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.party-contant{
+    width: 700px;
+    margin-right: 40px;
+}
+.party-contant h1{
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11px;
+}
+.party-contant p{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0px 48px 0px;
+}
+.party-contant a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.party-year img{
+    width: 320px;
+}
+.event-info-container{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%);
+    padding: 105px 0px;
+    text-align: center;
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+.event-info h4{
+    color: #070211;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 56px;
+}
+.event-info h4 span{
+    color: #FF0000;
+}
+.event-info{
+    margin-bottom: 48px;
+}
+.event-info-container a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF0000;
+    padding: 16px 32px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+.best-offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.best-offer-col-1{
+    width: 393px;
+}
+.best-offer-col-1 span{
+    color: #FF0000;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.best-offer-col-1 h1{
+    font-size: 48px;
+    font-family: Merriweather;
+    color: #070211;
+    margin: 16px 0px 22px 0px;; 
+}
+.best-offer-col-1 p{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.60);
+}
+.center-img{
+    width: 463px;
+    border: 15px #FF0000 solid;
+    border-radius: 100%;
+    margin-left: 70px;
+    margin-right: 118px;
+}
+.center-img img{
+    width: 365px;
+    padding: 49px;
+}
+.best-offer-col-2{
+    width: 276px;
+}
+.best-offer-col-2 h1{
+    font-size: 48px;
+    font-family: "Inter", sans-serif;
+    color: #FF0000; 
+}
+.best-offer-col-2 p{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.60);
+    margin: 16px 0px 43px 0px;
+}
+.best-offer-col-2 img{
+    position: absolute;
+}
+.holidays-text-container{
+    text-align: center;
+}
+.holidays-text-container span{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #070211;
+}
+.holidays-text-container h1{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 800;
+    color: #070211;
+    margin: 16px 0px 28px 0px;
+}
+span.holidays-sale{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 800;
+    color: #FF0000 !important;
+}
+.holidays-container{
+    margin-bottom:120px ;
+}
+.holidays-text-container p{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(7, 2, 17, 0.60);
+}
+.holidays-img-cotainer{
+    height: 660px;
+    background-image: url(images/Rectangle\ 2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 64px;
+
+}
+img.holidays-discount {
+    position: absolute;
+    top: 15%;
+    left: 55%;
+}
+.portfolio-container span{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.portfolio-container h1{
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin: 16px 0px 22px 0px;
+}
+.portfolio-container p{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(7, 2, 17, 0.60);
+}
+.portfolio-item-comtainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+.portfolio-item{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+.portfolio-container{
+    margin-bottom: 120px;
+}
+.newsletter-container{
+    background-color: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    border-radius: 16px;
+    padding-bottom: 80px;
+    margin-bottom: 120px;
+}
+.newsletter-container h1{
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin: 40px 0px 22px 0px;
+}
+.newsletter-container p{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.60);;
+}
+input[type="email"]{
+    width: 650px;
+    color: rgba(7, 2, 17, 0.30);
+    padding: 25px 30px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 50px;
+    border: none;
+
+}
+input[type="submit"] {
+    padding: 24px 56px;
+    border-radius: 0px 50px 50px 0px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #FF0000;
+    border: none;
+    margin-left: -190px;
+
+}
+.newsletter-contant{
+    padding: 80px 0px 48px 0px;
+}
+#footer{
+    background-color: #000;
+    padding: 120px 0px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.footer-contact-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.address span{
+    line-height: 40px;
+}
+
+.contct-ifo-item{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 10px 0px;
+}
+.contct-ifo-item img{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+.social-icon-container{
+    padding: 48px 0px;
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: rgb(255 255 255 / 15%);
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 50px 0px;
+
+}
+.social-icon-container img{
+    width: 64px;
+    height: 64px;
+}
+.copyright-container{
+    display: flex;
+    justify-content: space-between;
 }
